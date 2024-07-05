@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './aca.png';
 import './App.css';
 import Quiz from './compnents/Quiz';  
 
