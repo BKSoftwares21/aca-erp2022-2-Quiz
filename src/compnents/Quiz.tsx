@@ -1,9 +1,10 @@
+import { useState } from 'react';
 import { QuizData as QuizData1 } from '../data/quizzdata';
 import { quizData as QuizData2 } from '../data/Question 11-20';
 import { Quizzes as QuizData3 } from '../data/Question21-30';
 import { Quizlet as QuizData4 } from '../data/Question 31-40';
 import { Quizztion as QuizData5 } from '../data/Question 41-50';
-import { useState } from 'react';
+
 
 // Combine all quiz data into one array
 const combinedQuizData = [...QuizData1, ...QuizData2, ...QuizData3, ...QuizData4, ...QuizData5];
